@@ -1,0 +1,261 @@
+#--------------------#
+ Total Nodes:     254 
+ Unique Nodes:    252 
+ Total Faces:     126 
+#--------------------#
+ Normal orientation check ...
+ Normals are consistent!
+ Determining topology ...
+ Topology complete.
+#--------------------#
+Grid Ratio:  1.2496 
+#--------------------#
+#-------------------------------------------------------------------------------------------------------------------#
+# Grid | CPU  | Sub | KSP | nAvg |  Sl  | Sensor | Sensor | Min     | Min     |  deltaS  | March    | cMax  | Ratio |
+# Lvl  | Time | Its | Its |      |      | Max    | Min    | Quality | Volume  |          | Distance |       | kMax  |
+#-------------------------------------------------------------------------------------------------------------------#
+      2    0.0     5    13      0  0.290  1.00000  0.32650  0.42085  0.225E-06  0.177E-02  0.523E-02  1.0000  0.0000 
+      3    0.0     3    13      0  0.324  1.00475  0.43239  0.59280  0.496E-06  0.272E-02  0.109E-01  1.0000  1.3028 
+      4    0.0     2    13      0  0.344  1.00572  0.48582  0.66318  0.929E-06  0.350E-02  0.162E-01  1.0000  1.3049 
+      5    0.0     3    14      0  0.371  1.00672  0.54919  0.71550  0.162E-05  0.494E-02  0.269E-01  1.0000  1.3040 
+      6    0.0     2    14      0  0.388  1.00679  0.58332  0.75277  0.270E-05  0.611E-02  0.362E-01  1.0000  1.2917 
+      7    0.0     2    14      0  0.404  1.00550  0.61277  0.77715  0.437E-05  0.747E-02  0.476E-01  1.0000  1.2817 
+      8    0.0     2    15      0  0.420  1.00210  0.63857  0.79311  0.694E-05  0.904E-02  0.614E-01  1.0000  1.2769 
+      9    0.0     3    15      0  0.443  1.00000  0.67199  0.80357  0.109E-04  0.118E-01  0.874E-01  1.0000  1.2742 
+     10    0.0     2    16      0  0.458  1.00000  0.69144  0.81057  0.169E-04  0.140E-01  0.109E+00  1.0000  1.2720 
+     11    0.0     2    16      0  0.472  1.00000  0.70905  0.81513  0.262E-04  0.165E-01  0.134E+00  1.0000  1.2695 
+     12    0.0     3    16      0  0.494  1.00000  0.73254  0.81872  0.403E-04  0.209E-01  0.181E+00  1.0000  1.2692 
+     13    0.0     2    17      0  0.508  1.00000  0.74788  0.82074  0.618E-04  0.238E-01  0.218E+00  1.0000  1.2699 
+     14    0.0     3    17      0  0.528  1.00000  0.76950  0.82179  0.952E-04  0.279E-01  0.282E+00  1.0000  1.2738 
+     15    0.0     3    16      0  0.545  1.00000  0.80353  0.81935  0.148E-03  0.286E-01  0.350E+00  1.0000  1.2928 
+     16    0.0     4    16      0  0.565  1.00000  0.83865  0.81674  0.205E-03  0.300E-01  0.445E+00  1.0000  1.2947 
+     17    0.1     5    16      0  0.586  1.00000  0.86788  0.81529  0.269E-03  0.320E-01  0.569E+00  1.0000  1.2857 
+     18    0.1     5    15      0  0.605  1.00000  0.88737  0.81477  0.358E-03  0.346E-01  0.703E+00  1.0000  1.2781 
+     19    0.1     6    15      0  0.626  1.00000  0.90319  0.81493  0.489E-03  0.384E-01  0.879E+00  1.0000  1.2713 
+     20    0.1     7    15      0  0.648  1.00000  0.91546  0.81542  0.684E-03  0.440E-01  0.111E+01  1.0000  1.2666 
+     21    0.1     7    15      0  0.670  1.00000  0.92375  0.81617  0.980E-03  0.510E-01  0.138E+01  1.0000  1.2629 
+     22    0.1     8    15      0  0.693  1.00000  0.93025  0.81680  0.144E-02  0.614E-01  0.174E+01  1.0000  1.2599 
+     23    0.1     8    15      0  0.717  1.00000  0.93125  0.81341  0.215E-02  0.748E-01  0.218E+01  1.0000  1.2574 
+     24    0.1     8    15      0  0.741  1.00000  0.93029  0.80555  0.328E-02  0.922E-01  0.272E+01  1.0000  1.2554 
+     25    0.1     8    15      0  0.766  1.00000  0.92948  0.79756  0.507E-02  0.115E+00  0.339E+01  1.0000  1.2537 
+     26    0.1     9    14      0  0.794  1.00000  0.93703  0.79053  0.796E-02  0.125E+00  0.428E+01  1.0000  1.2565 
+     27    0.1    10    14      0  0.819  1.00000  0.94885  0.78334  0.128E-01  0.125E+00  0.528E+01  1.0000  1.2683 
+     28    0.1    13    13      0  0.846  1.00000  0.95933  0.77807  0.206E-01  0.125E+00  0.658E+01  1.0000  1.2661 
+     29    0.2    17    13      0  0.876  1.00000  0.96831  0.77466  0.334E-01  0.125E+00  0.828E+01  1.0000  1.2633 
+     30    0.2    20    13      0  0.905  1.00000  0.97513  0.77284  0.543E-01  0.125E+00  0.103E+02  1.0000  1.2609 
+nPoints for PS:  61
+nPoints for SS:  61
+nPoints for TE:  5
+nPoints Total:  127
+Mesh cells:  4032
+     31    0.2    26    12      0  0.936  1.00000  0.98080  0.77226  0.881E-01  0.125E+00  0.129E+02  1.0000  1.2588 
+     32    0.2    32    12      0  0.968  1.00000  0.98517  0.77260  0.143E+00  0.125E+00  0.161E+02  1.0000  1.2571 
+     33    0.3    40    12      0  1.001  1.00000  0.98859  0.77362  0.231E+00  0.125E+00  0.201E+02  1.0000  1.2556 
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1812                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : v1812 OPENFOAM=1812
+Arch   : "LSB;label=32;scalar=64"
+Exec   : plot3dToFoam -noBlank volumeMesh.xyz
+Date   : Feb 25 2025
+Time   : 11:25:51
+Host   : 2ed4ce353bd1
+PID    : 383
+I/O    : uncollated
+Case   : /home/dafoamuser/mount
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Overriding DebugSwitches according to controlDict
+    SolverPerformance 0;
+
+Reading 1 blocks
+block 0 nx:127 ny:2 nz:33
+Reading block points
+block 0:
+Reading 8382 x coordinates...
+Reading 8382 y coordinates...
+Reading 8382 z coordinates...
+Looking at cell 0 0 0 to determine orientation.
+Right-handed block.
+
+Merged points within 1e-15 distance. Merged from 8382 down to 8316 points.
+Creating cells
+Creating boundary patches
+--> FOAM Warning : 
+    From function Foam::polyMesh::polyMesh(const Foam::IOobject&, Foam::pointField&&, const cellShapeList&, const faceListList&, const wordList&, const wordList&, const Foam::word&, const Foam::word&, const wordList&, bool)
+    in file meshes/polyMesh/polyMeshFromShapeMesh.C at line 590
+    Found 8316 undefined faces in mesh; adding to default patch.
+Writing polyMesh
+End
+
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1812                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : v1812 OPENFOAM=1812
+Arch   : "LSB;label=32;scalar=64"
+Exec   : autoPatch 30 -overwrite
+Date   : Feb 25 2025
+Time   : 11:25:51
+Host   : 2ed4ce353bd1
+PID    : 384
+I/O    : uncollated
+Case   : /home/dafoamuser/mount
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Overriding DebugSwitches according to controlDict
+    SolverPerformance 0;
+
+Create polyMesh for time = 0
+
+Mesh read in = 0.04 s
+
+
+Feature:30
+minCos :0.8660254037844387
+
+Assigned 4032 faces to patch auto0
+
+Assigned 4032 faces to patch auto1
+
+Assigned 122 faces to patch auto2
+
+Assigned 4 faces to patch auto3
+
+Assigned 126 faces to patch auto4
+
+End
+
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1812                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : v1812 OPENFOAM=1812
+Arch   : "LSB;label=32;scalar=64"
+Exec   : createPatch -overwrite
+Date   : Feb 25 2025
+Time   : 11:25:51
+Host   : 2ed4ce353bd1
+PID    : 385
+I/O    : uncollated
+Case   : /home/dafoamuser/mount
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Overriding DebugSwitches according to controlDict
+    SolverPerformance 0;
+
+Create polyMesh for time = 0
+
+Reading "system/createPatchDict"
+
+Adding new patch wing as patch 6 from 
+{
+    type            wall;
+}
+
+Adding new patch inout as patch 7 from 
+{
+    type            patch;
+}
+
+Adding new patch sym as patch 8 from 
+{
+    type            symmetry;
+}
+
+
+Moving faces from patch auto0 to patch 6
+Moving faces from patch auto3 to patch 6
+Moving faces from patch auto2 to patch 7
+Moving faces from patch auto1 to patch 8
+
+Doing topology modification to order faces.
+
+Not synchronising points.
+
+Removing patches with no faces in them.
+
+Removing zero-sized patch defaultFaces type wall at position 0
+Removing zero-sized patch auto0 type patch at position 1
+Removing zero-sized patch auto1 type patch at position 2
+Removing zero-sized patch auto2 type patch at position 3
+Removing zero-sized patch auto3 type patch at position 4
+Removing patches.
+Writing repatched mesh to 0
+
+End
+
+/*---------------------------------------------------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v1812                                 |
+|   \\  /    A nd           | Web:      www.OpenFOAM.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+Build  : v1812 OPENFOAM=1812
+Arch   : "LSB;label=32;scalar=64"
+Exec   : renumberMesh -overwrite
+Date   : Feb 25 2025
+Time   : 11:25:51
+Host   : 2ed4ce353bd1
+PID    : 386
+I/O    : uncollated
+Case   : /home/dafoamuser/mount
+nProcs : 1
+trapFpe: Floating point exception trapping enabled (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+Overriding DebugSwitches according to controlDict
+    SolverPerformance 0;
+
+Create mesh for time = constant
+
+Mesh size: 4032
+Before renumbering :
+    band           : 126
+    profile        : 492405
+
+Using default renumberMethod.
+
+Selecting renumberMethod CuthillMcKee
+
+
+After renumbering :
+    band           : 65
+    profile        : 217218
+
+Writing mesh to "constant"
+End
+

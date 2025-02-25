@@ -197,7 +197,7 @@ def create_ffd(dat_file_path, ffd_file_path):
     return ffd_file_path
 
 if __name__ == "__main__":
-    ffd_file = "ffd.xyz"
+    ffd_file = "airfoil.xyz"
 
     dafoam_solver = InitDAFoam(0.0, 101325.0, 300.0, ffd_file, Re=1e6)
     dafoam_solver()
