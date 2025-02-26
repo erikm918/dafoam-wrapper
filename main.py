@@ -52,11 +52,16 @@ class InitDAFoam:
         self.T0 = T0
         self.ffd = ffd
         self.nuTilda0 = 4.5e-5
+        
+        if "c" in kwargs:
+            self.c = kwargs["c"]
+        else:
+            self.c = 1
 
         # Check kwargs for U0 definition
         if "Re" in kwargs:
             self.Re = kwargs["Re"]
-            self.U0 = (self.Re * 1.57e-5) # Assume c=1
+            self.U0 = (self.Re * 1.57e-5) / self.c
         elif "M" in kwargs:
             self.M = kwargs["M"]
             self.U0 = self.M * np.sqrt(1.4 * 287.05 * self.T0)
@@ -72,10 +77,9 @@ class InitDAFoam:
         # ==============================
         # MPI and parser set-up
         # ==============================
-        self.comm = MPI.COMM_WORLD
-        self.parser = argparse.ArgumentParser()
-        self.parser.add_argument("--task", help="run calculations of CL, CD, CM", type=str, default="compute")
-        self.args = parser.parse_args()
+        self.comm = comm
+        self.parser = parser
+        self.args = args
 
         # ==============================
         # Define DAFoam options
@@ -173,28 +177,6 @@ class InitDAFoam:
         self.dafoam_options["designVar"]["AoA"] = {"designVarType": "global"}
 
         return DVGeo
-
-# =======================================================================================================
-# FFD set-up
-# =======================================================================================================
-def create_ffd(dat_file_path, ffd_file_path):
-    print("Reading data from {}".format(dat_file_path))
-    points = []
-    with open(dat_file_path, 'r') as f:
-        lines = f.readlines()
-        for line in lines:
-            x, y = map(float, line.split())
-            points.append((x, y))
-    f.close()
-
-    print("Writing airfoil data to {}".format(ffd_file_path))
-    with open(ffd_file_path, 'w') as f:
-        for point in points:
-            f.write(f"{point[0]} {point[1]} 0.0\n")
-
-    print("FFD written to {}".format(ffd_file_path))
-
-    return ffd_file_path
 
 if __name__ == "__main__":
     ffd_file = "airfoil.xyz"

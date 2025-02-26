@@ -10,13 +10,13 @@ FoamFile
     version     2.0;
     format      ascii;
     class       dictionary;
-    location    "system";
     object      fvSolution;
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 SIMPLE
 {
+    consistent                         false;
     nNonOrthogonalCorrectors           0;
 }
 
@@ -50,12 +50,11 @@ relaxationFactors
 {
     fields
     {
-        "(p|rho)"                      1.0;
+        "(p|p_rgh)"                    0.30;
     }
     equations
     {
-        p                              1.0;
-        "(U|T|e|h|nuTilda|k|epsilon|omega)" 0.80;
+        "(U|T|e|h|nuTilda|k|epsilon|omega)" 0.70;
     }
 }
 
