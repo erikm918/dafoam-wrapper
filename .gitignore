@@ -1,2 +1,4 @@
 processor*
 .vscode
+reports
+.DS_store
